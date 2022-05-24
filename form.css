@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #3123f8;
+    background-image: linear-gradient(45deg, #8279ff 25%, #4992ff 65%);
+    background-size: 300%;
+    animation: degrade-animado 30s infinite alternate ease-in-out;
+    background-attachment: fixed;
+    color: #fff;
+    
+}
+@keyframes degrade-animado {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
+form {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    
+}
+input{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+label{
+    display: inline-block;
+    
+}
+.card{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(6, 26, 27, 0.548);
+    padding: 50px;
+    height: 550px;
+    margin-top: 50px;
+    align-items: center;
+    border-radius: 100px;
+}
+div{
+    text-align: center;
+    
+}
+h1{
+    text-align: center;
+    background-color: #8279ff;
+    width: 180px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.btn{
+    display: inline-block;
+    justify-content: center;
+    width: 285px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 150px;
+    border: 0;
+    padding: 5px;
+
+}
+

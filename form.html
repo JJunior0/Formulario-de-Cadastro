@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="form.php" method="post" class="card">
+
+        <h1>Cadastro</h1>
+		<br>
+		<div class="nome">
+			<label for="username">Nome:
+				<input type="text" name="username" placeholder="Nome">
+			</label>
+		</div>
+		<br>
+		<div class="email">
+			<label for="e-mail">Email:
+				<input type="email" name="e-mail" placeholder="Email">
+			</label>
+		</div>
+		<br>
+		<div class="senha">
+			<label for="senha">Senha:
+				<input type="password" name="senha" placeholder="Senha">
+			</label>
+		</div>
+		<br>
+			<div><label for="lembrar">Lembrar a Senha?</label>
+				<br><input type="checkbox" name="lembrar" value="s"> Sim
+				<input type="checkbox" name="lembrar" value="n"> Não
+			</div>
+		<br>
+		<div>
+			<input type="submit" name="ok" value="Cadastrar" class="btn">
+		</div>
+	</form>
+</body>
+</html>
